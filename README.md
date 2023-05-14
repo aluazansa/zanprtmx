@@ -1,4 +1,4 @@
-#zanprtmx
+# zanprtmx
 
 # (Perbaiki Manual) Perbaiki Kesalahan Stunnel5
 
