@@ -21,10 +21,10 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 DOMAIN=makmurvpn.tk
-SUB_DOMAIN=wuz2-${sub}.makmurvpn.tk
-NS_DOMAIN=ns1-${sub}.makmurvpn.tk
+SUB_DOMAIN=wuzvpn-${sub}.makmurvpn.tk
+NS_DOMAIN=slowdns-${sub}.makmurvpn.tk
 CF_ID=visedal502@xunleu.com
-CF_KEY=ca97816859495418b501e7850434ae40f649a
+CF_KEY=d4c2cdd75f5ca16e0aeef39600aa1504c4cf1
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Memperbarui DNS untuk ${SUB_DOMAIN}..."
