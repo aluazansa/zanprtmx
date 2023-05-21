@@ -20,9 +20,9 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=makmurvpn.tk
-SUB_DOMAIN=wuz-${sub}.makmurvpn.tk
-NS_DOMAIN=slowdns-${sub}.makmurvpn.tk
+DOMAIN=zanprtmx.my.id
+SUB_DOMAIN=wuz-${sub}.zanprtmx.my.id
+NS_DOMAIN=slowdns-${sub}.zanprtmx.my.id
 CF_ID=visedal502@xunleu.com
 CF_KEY=d4c2cdd75f5ca16e0aeef39600aa1504c4cf1
 set -euo pipefail
